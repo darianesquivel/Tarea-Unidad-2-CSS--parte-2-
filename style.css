@@ -1,0 +1,61 @@
+.div1 {
+  width: 700px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  border: solid 2px black;
+  margin: 20px;
+}
+
+.div2 {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border: solid 2px black;
+  margin: 20px;
+  align-items: flex-end;
+}
+
+.div3 {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 2px black;
+  margin: 20px;
+}
+
+h3 {
+  color: white;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c2 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c3 {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
